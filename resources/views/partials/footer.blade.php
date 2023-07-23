@@ -5,26 +5,26 @@
                 <div class="first-col-list">
                     <ul>
                         <h2>DC COMICS</h2>
-                        <li v-for="(item,index) in dc_comics_array" :key="index">{{ item }}</li>
+                        <li></li>
                     </ul>
 
                     <ul id="sublist">
                         <h2>SHOP</h2>
-                        <li v-for="(item,index) in shop_array" :key="index">{{ item }}</li>
+                        <li></li>
                     </ul>
                 </div>
 
                 <div class="second-col-list">
                     <ul>
                         <h2>DC </h2>
-                        <li v-for="(item,index) in dc_array" :key="index">{{ item }}</li>
+                        <li></li>
                     </ul>
                 </div>
 
                 <div class="third-col-list">
                     <ul>
                         <h2>SITES</h2>
-                        <li v-for="(item,index) in sites_array" :key="index">{{ item }}</li>
+                        <li></li>
                     </ul>
                 </div>
             </div>
@@ -40,19 +40,19 @@
                 <h3>FOLLOW US</h3>
                 <!-- icone social -->
                 <a href="#">
-                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="{{Vite::asset('./resources/images/footer-facebook.png')}}" alt="">
                 </a>
                 <a href="#">
-                    <img src="../assets/img/footer-periscope.png" alt="">
+                    <img src="{{Vite::asset('./resources/images/footer-twitter.png')}}" alt="">
                 </a>
                 <a href="#">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="{{Vite::asset('./resources/images/footer-youtube.png')}}" alt="">
                 </a>
                 <a href="#">
-                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="{{Vite::asset('./resources/images/footer-pinterest.png')}}" alt="">
                 </a>
                 <a href="#">
-                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="{{Vite::asset('./resources/images/footer-periscope.png')}}" alt="">
                 </a>
             </div>
 

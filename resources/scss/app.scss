@@ -19,25 +19,152 @@ header {
     font-weight: 700;
 }
 
-ul {
-    list-style-type: none;
+img {
+    width: 35%;
+}
 
-    li {
-        display: inline-block;
-        margin: 12px;
+.jumbo {
+    width: 100%;
+}
 
-        a {
-            font-size: 15px;
-            text-decoration: none;
-            color: rgba(74, 72, 71, 255);
+.bg-blue {
+    background-color: rgba(2, 130, 249, 255);
+    width: 100%;
 
-            &:hover {
-                color: rgba(2, 130, 249, 255);
-            }
+    .nav {
+        list-style-type: none;
+
+        img {
+            width: 40px;
+        }
+
+    }
+
+    .text {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+
+    }
+}
+
+.bg-color {
+    position: relative;
+    background-color: rgba(28, 28, 28, 255);
+
+    .width {
+        width: calc(100% / 1.2);
+    }
+
+    .button {
+        button {
+            color: white;
+            background-color: rgba(2, 130, 249, 255);
+            border: none;
+            padding: 5px 60px;
+        }
+    }
+
+    .badge {
+        left: 12%;
+        top: -2%;
+        position: absolute;
+
+        span {
+            color: white;
+            font-size: 22px;
+            background-color: rgba(2, 130, 249, 255);
+            border: none;
+            padding: 20px 35px;
         }
     }
 }
 
-img {
-    width: 35%;
+.container-top {
+    background-image: url('../assets/img/footer-bg.jpg');
+
+
+
+    .row {
+        max-width: 1170px;
+        margin: 0 auto;
+        background-image: url('../assets/img/dc-logo-bg.png');
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 40px 0;
+        padding-bottom: 60px;
+
+
+
+        .col {
+            display: flex;
+
+            ul {
+                list-style-type: none;
+                padding-right: 40px;
+                color: rgba(243, 243, 243, 0.531);
+
+                li {
+                    &:hover {
+                        color: white;
+                    }
+                }
+
+                h2 {
+                    padding-bottom: 10px;
+                    color: white;
+                }
+            }
+
+            #sublist {
+                padding-top: 10px;
+            }
+        }
+    }
+
+
+}
+
+.container-bottom {
+    background-color: rgb(62, 62, 62);
+    padding: 20px 0;
+
+
+    .row {
+        max-width: 1170px;
+        margin: 0 auto;
+
+
+        .col-button {
+            width: 50%;
+
+            button {
+                background-color: transparent;
+                padding: 15px;
+                border-color: rgb(5, 136, 237);
+                color: white;
+                font-weight: 800;
+            }
+
+        }
+
+        .col-image {
+            width: 50%;
+
+            h3 {
+                color: rgb(38, 143, 234);
+                padding-top: 10px;
+                padding-right: 40px;
+            }
+
+            img {
+                margin-right: 10px;
+                height: 30px;
+                margin-top: 5px;
+
+            }
+        }
+
+    }
 }
