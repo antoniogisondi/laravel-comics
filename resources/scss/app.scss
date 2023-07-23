@@ -19,6 +19,20 @@ header {
     font-weight: 700;
 }
 
+.search {
+    border-bottom: 2px solid #0282F9;
+    height: 25px;
+
+    input {
+        border: none;
+    }
+
+    i {
+        color: #464646;
+        font-weight: bold;
+    }
+}
+
 img {
     width: 35%;
 }
