@@ -1,1 +1,43 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.active:hover {
+    border-bottom: 4px solid rgba(2, 130, 249, 255);
+
+}
+
+header {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+
+    li {
+        display: inline-block;
+        margin: 12px;
+
+        a {
+            font-size: 15px;
+            text-decoration: none;
+            color: rgba(74, 72, 71, 255);
+
+            &:hover {
+                color: rgba(2, 130, 249, 255);
+            }
+        }
+    }
+}
+
+img {
+    width: 35%;
+}
