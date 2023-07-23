@@ -27,6 +27,20 @@ img {
     width: 100%;
 }
 
+.kard {
+    img {
+        width: 170px;
+        height: 200px
+    }
+
+    h2 {
+        margin-top: 15px;
+        font-size: 13px;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
 .bg-blue {
     background-color: rgba(2, 130, 249, 255);
     width: 100%;
@@ -83,47 +97,20 @@ img {
 .container-top {
     background-image: url('../assets/img/footer-bg.jpg');
 
-
-
-    .row {
-        max-width: 1170px;
-        margin: 0 auto;
-        background-image: url('../assets/img/dc-logo-bg.png');
-        background-size: 500px;
-        background-repeat: no-repeat;
-        background-position: right;
-        padding: 40px 0;
-        padding-bottom: 60px;
-
-
-
-        .col {
-            display: flex;
-
-            ul {
-                list-style-type: none;
-                padding-right: 40px;
-                color: rgba(243, 243, 243, 0.531);
-
-                li {
-                    &:hover {
-                        color: white;
-                    }
-                }
-
-                h2 {
-                    padding-bottom: 10px;
-                    color: white;
-                }
-            }
-
-            #sublist {
-                padding-top: 10px;
-            }
+    li {
+        &:hover {
+            color: white;
         }
     }
 
+    h2 {
+        padding-bottom: 10px;
+        color: white;
+    }
+}
 
+#sublist {
+    padding-top: 10px;
 }
 
 .container-bottom {

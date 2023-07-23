@@ -26,7 +26,12 @@
 
                 <div class="col bg-color d-flex flex-column justify-content-center align-items-center">
                     <div class="d-flex flex-row justify-content-center flex-wrap width mt-5">
-                       
+                       @foreach($objects as $object)
+                        <div class="m-3 kard">
+                            <img src="{{ $object['thumb'] }}">
+                            <h2>{{ $object['title'] }}</h2>
+                        </div>
+                        @endforeach
                     </div>
 
                     <div class="button d-flex justify-content-center pb-3 pt-5">
@@ -36,15 +41,6 @@
                     <div class="badge">
                         <span>CURRENT SERIES</span>
                     </div>
-                </div>
-
-                <div class="col bg-blue d-flex justify-content-center">
-                    <ul class="nav d-flex flex-row p-2">
-                        <li class="nav-item d-flex flex-row align-items-center m-4">
-                            <img src="">
-                            <a class="nav-link text" href="#"></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
