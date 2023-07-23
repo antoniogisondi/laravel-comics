@@ -113,6 +113,18 @@ img {
     padding-top: 10px;
 }
 
+.footer-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-dc-logo {
+    img {
+        width: 400px;
+    }
+}
+
 .container-bottom {
     background-color: rgb(62, 62, 62);
     padding: 20px 0;

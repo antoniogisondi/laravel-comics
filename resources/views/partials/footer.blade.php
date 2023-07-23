@@ -30,108 +30,114 @@
                 </ul>
             </div>
 
-            <div class="col">
-                <div class="first-col-list">
-                    <ul class="list-unstyled">
-                        <h2>DC COMICS</h2>
-                        <li>
-                            <a href="">Characters</a>
-                        </li>
-                        <li>
-                            <a href="">Comics</a>
-                        </li>
-                        <li>
-                            <a href="">Movies</a>
-                        </li>
-                        <li>
-                            <a href="">TV</a>
-                        </li>
-                        <li>
-                            <a href="">Games</a>
-                        </li>
-                        <li>
-                            <a href="">Videos</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                    </ul>
-
-                    <ul id="sublist" class="list-unstyled">
-                        <h2>SHOP</h2>
-                        <li>
-                            <a href="">Shop DC</a>
-                        </li>
-                        <li>
-                            <a href="">Shop DC Collectibles</a>
-                        </li>
-                    </ul>
+            <div class="col footer-bg d-flex justify-content-around" style="background-image:url({{Vite::asset('/resources/images/footer-bg.jpg')}})">
+                <div class="container-col d-flex">
+                    <div class="first-col-list">
+                        <ul class="list-unstyled">
+                            <h2>DC COMICS</h2>
+                            <li>
+                                <a class="text-decoration-none" href="">Characters</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Comics</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Movies</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">TV</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Games</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Videos</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                        </ul>
+    
+                        <ul id="sublist" class="list-unstyled">
+                            <h2>SHOP</h2>
+                            <li>
+                                <a class="text-decoration-none" href="">Shop DC</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Shop DC Collectibles</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="second-col-list">
+                        <ul class="list-unstyled">
+                            <h2>DC</h2>
+                            <li>
+                                <a class="text-decoration-none" href="">Terms Of Use</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Privacy policy (New)</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Movies</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">TV</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Games</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Videos</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="third-col-list">
+                        <ul class="list-unstyled">
+                            <h2>SITES</h2>
+                            <li>
+                                <a class="text-decoration-none" href="">Characters</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Comics</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Movies</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">TV</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Games</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">Videos</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="">News</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="second-col-list">
-                    <ul class="list-unstyled">
-                        <h2>DC </h2>
-                        <li>
-                            <a href="">Terms Of Use</a>
-                        </li>
-                        <li>
-                            <a href="">Privacy policy (New)</a>
-                        </li>
-                        <li>
-                            <a href="">Movies</a>
-                        </li>
-                        <li>
-                            <a href="">TV</a>
-                        </li>
-                        <li>
-                            <a href="">Games</a>
-                        </li>
-                        <li>
-                            <a href="">Videos</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="third-col-list">
-                    <ul class="list-unstyled">
-                        <h2>SITES</h2>
-                        <li>
-                            <a href="">Characters</a>
-                        </li>
-                        <li>
-                            <a href="">Comics</a>
-                        </li>
-                        <li>
-                            <a href="">Movies</a>
-                        </li>
-                        <li>
-                            <a href="">TV</a>
-                        </li>
-                        <li>
-                            <a href="">Games</a>
-                        </li>
-                        <li>
-                            <a href="">Videos</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                    </ul>
+                
+                <div class="container-dc-logo">
+                    <img src="{{Vite::asset('./resources/images/dc-logo.png')}}" alt="">
                 </div>
             </div>
         </div>
