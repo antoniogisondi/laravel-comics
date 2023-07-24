@@ -17,14 +17,14 @@ Route::get('/', function () {
     return view('layouts.app');
 });
 
-Route::get('/home', function(){
+Route::get('/', function(){
     $objects = config('comics.objects');
     return view('comics.index', compact('objects'));
 })->name('homepage');
 
-Route::get('/home/{comic}', function($id){
+Route::get('/{comic}', function($id){
     $objects = config('comics.objects');
     $comic = $objects[$id];
     return view('comics.show', compact('comic'));  
-});
+})->name('comic');
 

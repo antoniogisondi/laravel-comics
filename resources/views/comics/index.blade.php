@@ -9,11 +9,13 @@
 
             <div class="col bg-color d-flex flex-column justify-content-center align-items-center">
                 <div class="d-flex flex-row justify-content-center flex-wrap width mt-5">
-                    @foreach($objects as $object)
-                        <div class="m-3 kard">
-                            <img src="{{ $object['thumb'] }}">
-                            <h2 class="d-flex flex-wrap">{{ $object['series'] }}</h2>
-                        </div>
+                    @foreach($objects as $id => $object)
+                        <a href="{{ route('comic', $id) }}">
+                            <div class="m-3 kard">
+                                <img src="{{ $object['thumb'] }}">
+                                <h2 class="d-flex flex-wrap">{{ $object['series'] }}</h2>
+                            </div>
+                        </a>
                     @endforeach
                 </div>
 
