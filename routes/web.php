@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('layouts.app');
+})->name('homepage');;
+
+Route::get('/', function(){
     $objects = config('comics.objects');
-    return view('home', compact('objects'));
-})->name('homepage');
+    return view('layouts.home', compact('objects'));
+});
