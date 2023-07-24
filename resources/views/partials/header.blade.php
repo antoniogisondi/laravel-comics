@@ -7,10 +7,10 @@
             </div>
         </div>
         <div class="row d-flex flex-row m-2">
-            <div class="col-2 d-flex justify-content-center">
-                <img src="{{Vite::asset('./resources/images/dc-logo.png')}}" alt="dc-logo">
+            <div class="col-2 d-flex justify-content-end">
+                <img src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt="dc-logo">
             </div>
-            <div class="col-8 d-flex align-items-center">
+            <div class="col-8 d-flex justify-content-center align-items-center">
                 <ul class="list-unstyled d-flex">
                     <li>
                         <a href="/" class="m-3 text-decoration-none text-grey {{Route::currentRouteName() === 'homepage' ? 'active': ''}}">CHARACTERS</a>

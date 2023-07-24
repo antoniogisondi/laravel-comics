@@ -15,9 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('layouts.app');
-})->name('homepage');;
-
-Route::get('/', function(){
-    $objects = config('comics.objects');
-    return view('layouts.home', compact('objects'));
 });
+
+Route::get('/home', function(){
+    $objects = config('comics.objects');
+    return view('comics.index', compact('objects'));
+})->name('homepage');
+
+Route::get('/home/{comic}', function($id){
+    $objects = config('comics.objects');
+    $comic = $objects[$id];
+    return view('comics.show', compact('comic'));  
+});
+

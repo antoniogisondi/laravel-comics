@@ -36,35 +36,35 @@
                         <ul class="list-unstyled">
                             <h2>DC COMICS</h2>
                             <li>
-                                <a class="text-decoration-none" href="/">Characters</a>
+                                <a class="text-decoration-none text-white" href="/">Characters</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="/">Comics</a>
+                                <a class="text-decoration-none text-white" href="/">Comics</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="/">Movies</a>
+                                <a class="text-decoration-none text-white" href="/">Movies</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="/">TV</a>
+                                <a class="text-decoration-none text-white" href="/">TV</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="/">Games</a>
+                                <a class="text-decoration-none text-white" href="/">Games</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="/">Videos</a>
+                                <a class="text-decoration-none text-white" href="/">Videos</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">News</a>
                             </li>
                         </ul>
     
                         <ul id="sublist" class="list-unstyled">
                             <h2>SHOP</h2>
                             <li>
-                                <a class="text-decoration-none" href="/">Shop DC</a>
+                                <a class="text-decoration-none text-white" href="/">Shop DC</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="/">Shop DC Collectibles</a>
+                                <a class="text-decoration-none text-white" href="/">Shop DC Collectibles</a>
                             </li>
                         </ul>
                     </div>
@@ -73,37 +73,37 @@
                         <ul class="list-unstyled">
                             <h2>DC</h2>
                             <li>
-                                <a class="text-decoration-none" href="">Terms Of Use</a>
+                                <a class="text-decoration-none text-white" href="/">Terms Of Use</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Privacy policy (New)</a>
+                                <a class="text-decoration-none text-white" href="/">Privacy policy (New)</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Movies</a>
+                                <a class="text-decoration-none text-white" href="/">Ad Choices</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">TV</a>
+                                <a class="text-decoration-none text-white" href="/">Advertising</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Games</a>
+                                <a class="text-decoration-none text-white" href="/">Jobs</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Videos</a>
+                                <a class="text-decoration-none text-white" href="/">Subscription</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">Talent Workshop</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">CPSC Certificates</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">Ratings</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">Shop Help</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -112,25 +112,19 @@
                         <ul class="list-unstyled">
                             <h2>SITES</h2>
                             <li>
-                                <a class="text-decoration-none" href="">Characters</a>
+                                <a class="text-decoration-none text-white" href="/">DC</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Comics</a>
+                                <a class="text-decoration-none text-white" href="/">MAD Magazine</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Movies</a>
+                                <a class="text-decoration-none text-white" href="/">DC Kids</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">TV</a>
+                                <a class="text-decoration-none text-white" href="/">DC Universe</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Games</a>
-                            </li>
-                            <li>
-                                <a class="text-decoration-none" href="">Videos</a>
-                            </li>
-                            <li>
-                                <a class="text-decoration-none" href="">News</a>
+                                <a class="text-decoration-none text-white" href="/">DC Power Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -147,19 +141,19 @@
             <div class="col-image d-flex justify-content-end">
                 <h3>FOLLOW US</h3>
                 <!-- icone social -->
-                <a href="#">
+                <a href="/">
                     <img src="{{Vite::asset('./resources/images/footer-facebook.png')}}" alt="">
                 </a>
-                <a href="#">
+                <a href="/">
                     <img src="{{Vite::asset('./resources/images/footer-twitter.png')}}" alt="">
                 </a>
-                <a href="#">
+                <a href="/">
                     <img src="{{Vite::asset('./resources/images/footer-youtube.png')}}" alt="">
                 </a>
-                <a href="#">
+                <a href="/">
                     <img src="{{Vite::asset('./resources/images/footer-pinterest.png')}}" alt="">
                 </a>
-                <a href="#">
+                <a href="/">
                     <img src="{{Vite::asset('./resources/images/footer-periscope.png')}}" alt="">
                 </a>
             </div>
