@@ -19,6 +19,10 @@ header {
     font-weight: 700;
 }
 
+.text-grey {
+    color: rgb(61, 61, 61);
+}
+
 .search {
     border-bottom: 2px solid #0282F9;
     height: 25px;
@@ -42,6 +46,9 @@ img {
 }
 
 .kard {
+    width: 170px;
+    height: 230px;
+
     img {
         width: 170px;
         height: 200px
@@ -109,7 +116,6 @@ img {
 }
 
 .container-top {
-    background-image: url('../assets/img/footer-bg.jpg');
 
     li {
         &:hover {
@@ -131,13 +137,18 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
 
-.container-dc-logo {
-    img {
-        width: 400px;
+    .container-col {
+        max-width: 1170px;
+        margin: 0 auto;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 40px 0;
+        padding-bottom: 60px;
     }
 }
+
 
 .container-bottom {
     background-color: rgb(62, 62, 62);
@@ -174,6 +185,7 @@ img {
             img {
                 margin-right: 10px;
                 height: 30px;
+                width: 30px;
                 margin-top: 5px;
 
             }

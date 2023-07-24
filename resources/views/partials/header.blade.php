@@ -2,8 +2,8 @@
     <div class="container-fluid">
         <div class="row d-flex flex-row bg-blue">
             <div class="col-12 text-end">
-                <a href="/" class="text-decoration-none mx-2"><span>DC POWER VISA</span></a><span></span>
-                <a href="/" class="text-decoration-none mx-2"><span>ADDITIONAL DC SITES</span></a><span></span>
+                <a href="/" class="text-decoration-none mx-2 text-white"><span>DC POWER VISA</span></a><span></span>
+                <a href="/" class="text-decoration-none mx-2 text-white"><span>ADDITIONAL DC SITES</span></a><span></span>
             </div>
         </div>
         <div class="row d-flex flex-row m-2">
@@ -13,34 +13,34 @@
             <div class="col-8 d-flex align-items-center">
                 <ul class="list-unstyled d-flex">
                     <li>
-                        <a href="/" class="m-3 text-decoration-none {{Route::currentRouteName() === 'homepage' ? 'active': ''}}">CHARACTERS</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey {{Route::currentRouteName() === 'homepage' ? 'active': ''}}">CHARACTERS</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">COMICS</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">COMICS</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">MOVIES</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">MOVIES</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">TV</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">TV</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">GAMES</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">GAMES</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">COLLECTIBLES</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">COLLECTIBLES</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">VIDEOS</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">VIDEOS</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">FANS</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">FANS</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">NEWS</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">NEWS</a>
                     </li>
                     <li>
-                        <a href="/" class="m-3 text-decoration-none">SHOP</a>
+                        <a href="/" class="m-3 text-decoration-none text-grey">SHOP</a>
                     </li>
                 </ul>
             </div>

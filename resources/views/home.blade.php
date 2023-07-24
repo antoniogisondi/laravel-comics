@@ -29,7 +29,7 @@
                        @foreach($objects as $object)
                         <div class="m-3 kard">
                             <img src="{{ $object['thumb'] }}">
-                            <h2>{{ $object['title'] }}</h2>
+                            <h2 class="d-flex flex-wrap">{{ $object['series'] }}</h2>
                         </div>
                         @endforeach
                     </div>

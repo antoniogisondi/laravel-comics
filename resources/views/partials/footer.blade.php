@@ -30,28 +30,28 @@
                 </ul>
             </div>
 
-            <div class="col footer-bg d-flex justify-content-around" style="background-image:url({{Vite::asset('/resources/images/footer-bg.jpg')}})">
-                <div class="container-col d-flex">
+            <div class="col footer-bg d-flex" style="background-image:url({{Vite::asset('/resources/images/footer-bg.jpg')}})">
+                <div class="container-col d-flex" style="background-image:url({{Vite::asset('/resources/images/dc-logo-bg.png')}})">
                     <div class="first-col-list">
                         <ul class="list-unstyled">
                             <h2>DC COMICS</h2>
                             <li>
-                                <a class="text-decoration-none" href="">Characters</a>
+                                <a class="text-decoration-none" href="/">Characters</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Comics</a>
+                                <a class="text-decoration-none" href="/">Comics</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Movies</a>
+                                <a class="text-decoration-none" href="/">Movies</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">TV</a>
+                                <a class="text-decoration-none" href="/">TV</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Games</a>
+                                <a class="text-decoration-none" href="/">Games</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Videos</a>
+                                <a class="text-decoration-none" href="/">Videos</a>
                             </li>
                             <li>
                                 <a class="text-decoration-none" href="">News</a>
@@ -61,10 +61,10 @@
                         <ul id="sublist" class="list-unstyled">
                             <h2>SHOP</h2>
                             <li>
-                                <a class="text-decoration-none" href="">Shop DC</a>
+                                <a class="text-decoration-none" href="/">Shop DC</a>
                             </li>
                             <li>
-                                <a class="text-decoration-none" href="">Shop DC Collectibles</a>
+                                <a class="text-decoration-none" href="/">Shop DC Collectibles</a>
                             </li>
                         </ul>
                     </div>
@@ -134,10 +134,6 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                
-                <div class="container-dc-logo">
-                    <img src="{{Vite::asset('./resources/images/dc-logo.png')}}" alt="">
                 </div>
             </div>
         </div>
