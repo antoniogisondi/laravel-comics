@@ -1,35 +1,6 @@
 <footer>
     <div class="container-top">
         <div class="row d-flex flex-column p-0 m-0">
-            <div class="col bg-blue d-flex justify-content-center">
-                <ul class="nav d-flex flex-row p-2">
-                    <li class="nav-item d-flex flex-row align-items-center m-4">
-                        <img src="{{Vite::asset('./resources/images/buy-comics-digital-comics.png')}}">
-                        <a class="nav-link text" href="#">DIGITAL COMICS</a>
-                    </li>
-
-                    <li class="nav-item d-flex flex-row align-items-center m-4">
-                        <img src="{{Vite::asset('./resources/images/buy-comics-merchandise.png')}}">
-                        <a class="nav-link text" href="#">DC MERCHANDISE</a>
-                    </li>
-
-                    <li class="nav-item d-flex flex-row align-items-center m-4">
-                        <img src="{{Vite::asset('./resources/images/buy-comics-subscriptions.png')}}">
-                        <a class="nav-link text" href="#">SUBSCRIPTION</a>
-                    </li>
-
-                    <li class="nav-item d-flex flex-row align-items-center m-4">
-                        <img src="{{Vite::asset('./resources/images/buy-comics-shop-locator.png')}}">
-                        <a class="nav-link text" href="#">COMIC SHOP LOCATOR</a>
-                    </li>
-
-                    <li class="nav-item d-flex flex-row align-items-center m-4">
-                        <img src="{{Vite::asset('./resources/images/buy-dc-power-visa.svg')}}">
-                        <a class="nav-link text" href="#">DC POWER VISA</a>
-                    </li>
-                </ul>
-            </div>
-
             <div class="col footer-bg d-flex" style="background-image:url({{Vite::asset('/resources/images/footer-bg.jpg')}})">
                 <div class="container-col d-flex" style="background-image:url({{Vite::asset('/resources/images/dc-logo-bg.png')}})">
                     <div class="first-col-list">
