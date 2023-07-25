@@ -13,16 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-});
-
 Route::get('/', function(){
     $objects = config('comics.objects');
     return view('comics.index', compact('objects'));
 })->name('homepage');
 
-Route::get('/{comic}', function($id){
+Route::get('/comics/{comic}', function($id){
     $objects = config('comics.objects');
     $comic = $objects[$id];
     return view('comics.show', compact('comic'));  

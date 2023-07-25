@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container-fluid">
-        <div class="row d-flex flex-column">
+        <div class="row d-flex flex-column align-items-center">
             <div class="col p-0">
                 <img class="jumbo" src="{{Vite::asset('/resources/images/jumbotron.jpg')}}" alt="jumbotron">
             </div>
@@ -11,7 +11,7 @@
                 <img src="{{ $comic['thumb'] }}">
             </div>
 
-            <div class="col px-0 pt-5">
+            <div class="col-7 px-0 pt-5">
                 <div class="container-col d-flex flex-column justify-content-center align-items-center py-5">
                     <h2 class="text-uppercase">{{ $comic['title'] }}</h2>
                     <div class="btn-group p-3" role="group" aria-label="Button group with nested dropdown">
@@ -41,10 +41,14 @@
                             <hr>
                             <div class="d-flex">
                                 <h5>Art by:</h5>
-                                <ul class="ms-5">
+                                <ul class="ms-5 list-unstyled">
                                     @foreach($comic['artists'] as $artist)
                                         <li>
-                                            {{$artist}}
+                                            @if (!$loop->last)
+                                                {{$artist}},
+                                            @else
+                                                {{$artist}}
+                                            @endif
                                         </li>
                                     @endforeach
                                 </ul>
@@ -52,10 +56,14 @@
                             <hr>
                             <div class="d-flex">
                                 <h5>Written by:</h5>
-                                <ul class="ms-4">
+                                <ul class="ms-4 list-unstyled">
                                     @foreach($comic['writers'] as $writer)
                                     <li>
-                                        {{$writer}}
+                                        @if (!$loop->last)
+                                            {{$writer}},
+                                        @else
+                                            {{$writer}}
+                                        @endif
                                     </li>
                                     @endforeach 
                                 </ul>
